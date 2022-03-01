@@ -1,5 +1,5 @@
 <template>
-  <message-box>Tell me what's bothering you.</message-box>
+  <message-box>Tell me what's bothering you.  (eg: i have severe headache/stomachache etc.)</message-box>
 </template>
 
 <script setup>

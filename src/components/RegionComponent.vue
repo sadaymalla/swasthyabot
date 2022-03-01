@@ -1,4 +1,7 @@
 <template>
+  <div>
+    In order to know what's wrong with you, I need to ask you a few questions. Continue?
+  </div>
   <div ref="container" class="container-msg">
    <!--<MessageButton
       class="button-go--back"
@@ -38,6 +41,7 @@
       />
     </MessageButton>-->
   </div>
+  
   <MessageButton class="button-done" :disabled="state.done" @click="handleDone"
     >Continue</MessageButton
   >

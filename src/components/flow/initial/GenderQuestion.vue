@@ -1,6 +1,6 @@
 <template>
   <message-box>
-    Great! At first I need to know your sex. Choose one option:
+    Great! At first I need to know your gender. Choose one option:
     <div class="btn-container">
       <message-tile
         icon="/src/assets/images/svg/gender/female.svg"

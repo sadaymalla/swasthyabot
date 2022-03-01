@@ -1,5 +1,10 @@
 <template>
+<div>If you have any previous medical conditions Please select:
+</div>
+<br>
   <div class="checkbox__container">
+    
+    
     <div class="checkbox__row">
       <label
         v-for="risk_factor in riskFactors"
@@ -20,9 +25,13 @@
             class="checkbox__checkbox-icon"
           />
         </div>
+        
         <span class="checkbox__label-text">{{ risk_factor.name }}</span>
       </label>
     </div>
+    <br>
+      <div>Note : BMI=BodyMassIndex</div>
+    
     <MessageButton :disabled="isDone" class="checkbox__done" @click="handleDone"
       >Done</MessageButton
     >
